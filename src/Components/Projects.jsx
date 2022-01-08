@@ -31,8 +31,8 @@ export default function Projects() {
             title: "nykaa",
             desc: "Nykaa is India’s leading beauty and fashion platform that offers a comprehensive range of cosmetics, engagement prodducts and expert assistance.",
             demo: null,
-            github: "https://srinu217.github.io/nykaa/",
-            Demo:"https://drive.google.com/file/d/1ulVwrmh8x6q_1m3K5bh7SjfAqKxkY4ns/view?usp=sharing",
+            github: "https://github.com/srinu217/nykaa",
+            Demo:"https://srinu217.github.io/nykaa/",
             main: "/nykaa.jpg",
             stack: [
                 "/html.webp",
@@ -46,8 +46,8 @@ export default function Projects() {
             title: "HealthKart",
             desc: " HealthKart is India’s leading nutrition and supplement platform that offers a comprehensive range of products, engagement tools.",
             demo: null,
-            github:"https://hemantjayas.github.io/HealthKart/" ,
-            Demo:"https://drive.google.com/file/d/1pYKckOUoaMDmfYYx1Dqzd_1af4OJKDOw/view?usp=sharing",
+            github:"https://github.com/Dhruvkagrawal/HealtKart.com-Clone" ,
+            Demo:"https://hemantjayas.github.io/HealthKart/",
             main: "/HealthKart-image.jpg",
             stack: [
                 "/html.webp",
