@@ -1,16 +1,19 @@
 import "./App.css";
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
-import Routes from "./Routes/Routes";
-
+import Skills from "./Skills";
+import Home from "./Home";
+import About from "./about";
+import Project from "./Project";
+import Contacts from "./Contact";
 function App() {
-    return (
-        <div className="App">
-            <Navbar />
-            <Routes />
-            <Footer />
-        </div>
-    );
+  return (
+    <div className="App">
+      <Home />
+      <About />
+      <Skills />
+      <Project />
+      <Contacts />
+    </div>
+  );
 }
 
 export default App;

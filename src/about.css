@@ -1,0 +1,48 @@
+.about-bg {
+  background: #aaa1ddc4;
+  width: 100%;
+}
+.about-bg h1 {
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.about-section {
+  display: flex;
+  margin: 0rem 2rem;
+  padding: 2rem;
+}
+.about-section .para p {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 40px;
+  margin: 3rem 0;
+}
+.profile-img {
+}
+.profile-img img {
+  width: 450px;
+  border: 6px solid #131212;
+  border-radius: 1%;
+  margin: 0px 3rem;
+  transition: width 2s;
+}
+.profile-img img:hover {
+  width: 447px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .about-section {
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 468px) {
+  .profile-img img {
+    width: 250px;
+  }
+}
