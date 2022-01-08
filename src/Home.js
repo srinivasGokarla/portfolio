@@ -88,9 +88,7 @@ function Home() {
                 <h3 className="home__text sweet pz__10">
                   Full-stack Web Developer.
                 </h3>
-                <p>
-                  Keen to learn new things || Enthusiatic to solve problems.
-                </p>
+               
                 <div className="resume-option">
                   <a href="Gokarla_Srinivas.pdf" download="Gokarla_Srinivas.pdf">
                     <button className="btn highlighted-btn">Get Resume</button>
