@@ -15,10 +15,10 @@ export default function About() {
 
           <div className="para">
             <p>
-          A Passionate aspiring Full Stack Developer skilled in MERN <br></br>
-          stack, moulded and shaped by Masai school’sintensive  <br></br>
-          and immersive learning. Look forward to joining a company where I will be able to contribute 
-            towards individual and company growth.
+            Strong in design and integration with intuitive problem-solving skills.
+Passionate about implementing and launching new projects. Looking to
+start a career as a Full-Stack web developer with a reputed firm driven by
+technology
             </p>
           </div>
         </div>
