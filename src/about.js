@@ -15,8 +15,9 @@ export default function About() {
 
           <div className="para">
             <p>
-            A Passionate aspiring Full Stack Developer skilled in MERN stack, moulded and shaped by Masai school’s
-            intensive and immersive learning.Look forward to joining a company where I will be able to contribute 
+          A Passionate aspiring Full Stack Developer skilled in MERN <br></br>
+          stack, moulded and shaped by Masai school’sintensive  <br></br>
+          and immersive learning. Look forward to joining a company where I will be able to contribute 
             towards individual and company growth.
             </p>
           </div>

@@ -4,6 +4,7 @@
 }
 .about-bg h1 {
   text-align: center;
+
   color: black;
   font-size: 3rem;
   font-weight: 500;
@@ -19,7 +20,8 @@
   line-height: 40px;
   margin: 3rem 0;
 }
-.profile-img {
+.para > p {
+  text-align: center;
 }
 .profile-img img {
   width: 450px;
