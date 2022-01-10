@@ -4,7 +4,7 @@
 }
 .about-bg h1 {
   text-align: center;
-  margin-top:20px;
+   padding-top:30px;
   color: #26a1da;
   font-size: 3rem;
   font-weight: 500;
@@ -22,7 +22,7 @@
 }
 .para  p {
   text-align: center;
-  margin-top:40%;
+  padding-top:10%;
 }
 .profile-img img {
   width: 350px;
