@@ -76,13 +76,18 @@ a.bottom__to__top.active {
 .icon-name {
   display: inline-block;
   border: 1px solid #26a1da;
-  margin: 2rem;
+  margin:0.5rem;
   border-radius: 5%;
   padding: 1.5rem;
   text-align: center;
 }
+.icon-name:hover {
+  background-color: #3d3338;
+  color: aliceblue;
+}
 .icon-name p {
-  color: white;
+  color: #f9004d;
+  font-size: 20px;
 }
 
 /* RESPONSIVE */
@@ -97,8 +102,14 @@ a.bottom__to__top.active {
   }
   .icon-name {
     margin: 0.5rem;
-    width: 130px;
-    text-align: center;
+    width: 170px;
+   
+  }
+  .tech-stack .right img {
+    width: 70px;
+  }
+  .icon-name p {
+    font-size: 14px;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -109,11 +120,32 @@ a.bottom__to__top.active {
     font-size: 13px;
     transition: 0.4s ease;
   }
+  .icon-name {
+    margin: 0.5rem;
+    width: 140px;
+  }
   .tech-stack .right img {
-    margin: 0rem 1.2rem;
+    width: 50px;
   }
   .two {
     display: grid;
     grid-template-columns: auto auto;
   }
 }
+@media only screen and (max-width: 325px) {
+  .icon-name {
+    margin: 0.5rem;
+    width: 120px;
+  }
+  .tech-stack .right img {
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 225px) {
+  .two {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+

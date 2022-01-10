@@ -5,6 +5,7 @@ export default function Contacts() {
     <div>
       <div className="contacts" id="Contact">
         <h1>Contact Me</h1>
+        <div className="center-div">
 
         <div className="phone">
           <i className="fa fa-phone"> </i>
@@ -13,6 +14,13 @@ export default function Contacts() {
             +91 8790844853
           </a>
         </div>
+        <div className="phone">
+            <i className="fa fa-envelope-o"></i>
+            <a href="mailto: srinivasgokarla@gmail.com">
+              srinivasgokarla@gmail.com
+            </a>
+          </div>
+          </div>
 
         <a href="https://github.com/srinu217" target="_blank" rel="noreferrer">
           <i className="fa fa-github"></i>

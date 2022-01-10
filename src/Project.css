@@ -118,6 +118,16 @@ h2 {
     font-size: 2rem;
   }
 }
+@media only screen and (max-width: 625px) {
+  .one {
+    margin: 2rem 0;
+    width: 358px;
+  }
+  .one img {
+    width: 340px;
+    height: 300px;
+  }
+}
 @media only screen and (max-width: 425px) {
   .center {
     width: 100%;
@@ -139,3 +149,26 @@ h2 {
     font-size: 2rem;
   }
 }
+
+@media only screen and (max-width: 325px) {
+  .one {
+    margin: 2rem 0;
+    width: 260px;
+  }
+  .one img {
+    width: 245px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 225px) {
+  .one {
+    margin: 2rem 0;
+    width: 200px;
+  }
+  .one img {
+    width: 185px;
+    height: 300px;
+  }
+}
+

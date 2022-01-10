@@ -14,7 +14,8 @@ function Home() {
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
-            <i className="fa fa-bullseye"></i>
+          <i className="fa fa-code"></i>
+            
           </div>
           <div className="navigation pxy__30">
             <div className="ul-li">
