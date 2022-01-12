@@ -8,6 +8,7 @@ h1.about__heading {
   text-align: start;
   font-family: Montserrat, sans-serif;
   font-size: 60px;
+  padding-top:4%;
 }
 button.about.btn.pointer {
   text-transform: capitalize;
