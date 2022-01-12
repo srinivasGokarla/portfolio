@@ -1,47 +1,7 @@
 .about-bg {
   background: #aaa1ddc4;
   width: 100%;
-  background: linear-gradient(
-    -45deg,
-   
-    
-    #8946A6,
-    #B762C1,
-    #EA99D5,
-    #FFCDDD,
-    #D3DEDC,
-    #92A9BD,
-    #7C99AC,
-    #FFEFEF,
-    #1A374D,
-    #406882,
-    #6998AB,
-    #B1D0E0,
-    #F2789F,
-    #F999B7,
-    #F9C5D5,
-    #FEE3EC
-
-
-
-    
-);
-background-size: 400% 400%;
-animation: gradient 10s ease-in infinite;
-height: 100vh;
-}
-
-
-@keyframes gradient {
-0% {
-    background-position: 0% 50%;
-}
-50% {
-    background-position: 100% 50%;
-}
-100% {
-    background-position: 0% 50%;
-}
+ 
 
 }
 .about-bg h1 {
