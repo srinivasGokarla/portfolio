@@ -14,14 +14,14 @@ export default function About() {
           </div>
 
           <div className="para">
-            <p>
-          Meticulous Full Stack Web Developer dedicated to developing clean and scalable code.
-          Passionate about creating the wonderful digital and overall great user experience.Effective Communicator and a learning enthusiast with a proactive attitude ready to take up tasks with a commitment to professionalism.
-            <br></br>
-            Strong in design and integration with intuitive problem-solving skills.
-            Passionate about implementing and launching new projects. Looking to
-           start a career as a Full-Stack web developer with a reputed firm driven by
-            technology.
+       
+            <p >
+            I’m a full-stack web developer and creative coder who specializes in MERN stack development.My mission is to translate user-focused designs into pixel-perfect websites or applications that run blazing fast. A passionate learner who's always willing to learn and work across technologies and domains 💡.
+I love to explore new technologies and leverage them to solve real-life problems.
+            <br />
+            <br />I am an Mechanical Engineer Who Fall in
+           
+            With Coding.
             </p>
           </div>
         </div>

@@ -1,4 +1,6 @@
 .about-bg {
+  background: #aaa1ddc4;
+  width: 100%;
   background: linear-gradient(
     -45deg,
    
@@ -40,6 +42,7 @@ height: 100vh;
 100% {
     background-position: 0% 50%;
 }
+
 }
 .about-bg h1 {
   text-align: center;
@@ -47,12 +50,13 @@ height: 100vh;
   color: #26a1da;
   font-size: 3rem;
   font-weight: 500;
-  
+ 
 }
 .about-section {
   display: flex;
   margin: 0rem 2rem;
   padding: 2rem;
+  border: 3px solid black;
 }
 .about-section .para p {
   color: white;
@@ -63,7 +67,7 @@ height: 100vh;
 .para  p {
   text-align: center;
   padding-top:10%;
-  width: 800px;
+
 }
 .profile-img img {
   width: 350px;
