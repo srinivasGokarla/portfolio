@@ -21,7 +21,7 @@ export default function Projects() {
               <p>Teck-Stack: HTML | CSS | Javascript</p>
 
               <a
-                href="https://srinu217.github.io/nykaa/ "
+                href="https://srinivasgokarla.github.io/nykaa/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -40,8 +40,8 @@ export default function Projects() {
               <img src={Img} alt="project" />
               <h2>Clone of HealthKart</h2>
               <p>
-              HealthKart is India’s leading nutrition and supplement platform 
-              that offers a comprehensive range of products, engagement tools.
+              About
+This project is a clone of (HealthKart.com) which is India’s largest online health & fitness store for men and women. Shop online from the latest collections of health the best brands.
               </p>
               <p>
                 Teck-Stack: HTML | CSS | Javascript | Nodejs | MongoDB | Express
