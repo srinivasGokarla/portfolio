@@ -22,7 +22,7 @@ export default function Contacts() {
           </div>
           </div>
 
-        <a href="https://github.com/srinu217" target="_blank" rel="noreferrer">
+        <a href="https://github.com/srinivasGokarla" target="_blank" rel="noreferrer">
           <i className="fa fa-github"></i>
         </a>
         <a
