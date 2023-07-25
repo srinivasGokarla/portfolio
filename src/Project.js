@@ -29,7 +29,7 @@ export default function Projects() {
                 <button>Demo</button>
               </a>
               <a
-                href="https://github.com/srinivasGokarla/nykaa"
+                href="https://github.com/srinivasGokarla/Nyka_clone"
                 target="_blank"
                 rel="noreferrer"
               >
