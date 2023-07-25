@@ -22,14 +22,14 @@ export default function Projects() {
               <p>Teck-Stack: HTML | CSS | Javascript</p>
 
               <a
-                href="https://srinivasgokarla.github.io/nykaa/"
+                href="https://srinivasgokarla.github.io/Nyka_clone/index.html"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button>Demo</button>
               </a>
               <a
-                href="https://github.com/srinivasGokarla/nykaa"
+                href="https://github.com/srinivasGokarla/Nyka_clone"
                 target="_blank"
                 rel="noreferrer"
               >
