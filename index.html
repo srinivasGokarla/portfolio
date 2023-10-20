@@ -1,408 +1,390 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Srinivas Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">Srinivas</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Srinivas</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
-   
-    <section id="profile">
-      <div class="section__pic-container">
-        <img class="cartoon-img" src="https://img.freepik.com/free-vector/coding-round-composition_1284-40752.jpg?w=740&t=st=1697344079~exp=1697344679~hmac=1b72b804f11e081e2336647b5a2f46f65d18fcc695e91620090a740da36da80c" alt="software cartoon" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm 👋</p>
-        <h1 class="title">Gokarla Srinivas</h1>
-        <p class="section__text__p2">Full Stack Web Developer</p>
-  
-        <div class="btn-container">
-          <a 
-          href="https://drive.google.com/drive/folders/1K8CnmhD8z2AD-CYPXHdy0npkASDSrh6O"
-          target="_blank">
-          <button
-            class="btn btn-color-2"
-          >
-            Resume
-          </button>
-        </a>
-          <button class="btn btn-color-1" 
-          onclick="location.
-          href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <a href='https://www.linkedin.com/in/srinivas-gokarla/'
-          target="_blank">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            
-          />
-        </a>
-        <a href="https://github.com/srinivasGokarla"
-        target="_blank">
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-          />
-        </a>
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/srinu_dp.jpeg"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>1+ years <br />Full Stack Web Development</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>B.tech (Mech) <br/>&<br />Diploma (Mech)</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              I’m a full-stack web developer and creative coder who specializes in MERN stack development. My mission is to translate user-focused designs into pixel-perfect websites or applications that run blazing fast. A passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies and leverage them to solve real-life problems.
-             <!-- I am a Mechanical Engineer Who Fell in Love With Coding. -->
-            </p>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Technical Skills</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>React JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Backend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>MongoDB</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="https://portfolio-srinivasgokarla.vercel.app/static/media/nykaa.efc3d0e3f9d1c7727e12.png"
-                alt="Clone of Nykaa"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Clone of Nykaa</h2>
-            <div class="btn-container">
-              <a  href="https://github.com/srinivasGokarla/Nyka_clone"
-              target="_blank">
-              <button
-                class="btn btn-color-2 project-btn"
-              >
-                Github
-              </button>
-            </a>
-            <a href="https://srinivasgokarla.github.io/Nyka_clone/index.html"
-            target="_blank">
-              <button
-                class="btn btn-color-2 project-btn" 
-              >
-                Live Demo
-              </button>
-            </a>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="https://portfolio-srinivasgokarla.vercel.app/static/media/kickstarter.9b776162fdc14424d0b7.png"
-                alt="Clone of Kickstarter"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Clone of Kickstarter</h2>
-            <div class="btn-container">
-              <a href="https://github.com/rv-vikram/Kickstarter_Clone"
-              target="_blank">
-              <button
-                class="btn btn-color-2 project-btn"
-              >
-                Github
-              </button>
-            </a>
-            <a href="https://kickstarterclone0.netlify.app/"
-            target="_blank">
-              <button
-                class="btn btn-color-2 project-btn"
-              >
-                Live Demo
-              </button>
-            </a>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="https://portfolio-srinivasgokarla.vercel.app/static/media/healthkart.153b8227585de05246b7.png "
-                alt="Clone of HealthKart"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Clone of HealthKart</h2>
-            <div class="btn-container">
-              <a href="https://github.com/Dhruvkagrawal/HealtKart.com-Clone"
-              target="_blank">
-              <button
-                class="btn btn-color-2 project-btn"
-              >
-                Github
-              </button>
-            </a>
-            <a href="https://hemantjayas.github.io/HealthKart/"
-            target="_blank">
-              <button
-                class="btn btn-color-2 project-btn"
-              >
-                Live Demo
-              </button>
-            </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:examplemail@gmail.com">srinivasgokarla@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href='https://www.linkedin.com/in/srinivas-gokarla/'
-            target="_blank">LinkedIn</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/github.png"
-            alt="Github icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://github.com/srinivasGokarla"
-            target="_blank">  Github</a></p>
-        </div>
-        <div class="contact-info-container">
-          <p class="icon contact-icon " id="phone-icon">&#9742;</p>
-            
-          <!-- /> -->
-          <p><a href="tel:+918790844853"
-            target="_blank">  +918790844853</a></p>
-        </div>
-      </div>
-    </section>
+<html>
+<head>
+	<title>Gokarla Srinivas | Full Stack Web Developer</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
 
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+  <!-- Preloader Start  -->
+  <div class="preloader">
+     <div class="loader">
+     </div>
+  </div>
+  <!-- Preloader End  -->
+ 
+ <!-- Header Start -->
+ <header class="header">
+ 	<div class="container">
+ 		<div class="row justify-content-between align-items-center">
+ 			<div class="brand-name">
+ 				<a href="index.html">Srinivas</a>
+ 			</div>
+      <div class="nav-toggle">
+        <span></span>
+      </div>
+ 			<nav class="nav">
+ 				<ul>
+ 					<li><a href="#home">Home</a></li>
+ 					<li><a href="#about">About</a></li>
+ 					<li><a href="#services">SKills</a></li>
+ 					<li><a href="#works">Projects</a></li>
+ 					<li><a href="#contact">Contact</a></li>
+					 <li><a href="https://drive.google.com/drive/folders/1K8CnmhD8z2AD-CYPXHdy0npkASDSrh6O" target="_blank">Resume</a></li>
+ 				</ul>
+ 			</nav>
+ 		</div>
+ 	</div>
+ </header>
+ <!-- Header End -->
+
+ <!-- Home Section Start -->
+ <section class="home-section" id="home">
+ 	<!-- shape -->
+ 	<div class="shape-01">
+ 	</div>
+ 	<div class="container">
+ 		<div class="row align-items-center">
+ 			<div class="home-content">
+				<h4>Hi, &#128075;</h4>
+ 				<h4>I'm Gokarla Srinivas</h4>
+ 				<h1 class="element"></h1>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<!-- scroll down -->
+ 	<a href="#about" class="scroll-down">
+ 		<img src="img/icons/arrow-down.svg" alt="scroll Down">
+ 	</a>
+ </section>
+ <!-- Home Section End -->
+
+ <!-- About Section Start -->
+ <section class="about-section" id="about">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="about-img">
+ 				<div class="img-box">
+ 					<div class="shape-02">
+ 					</div>
+ 					<img src="./img/srinu_dp.jpeg" alt="about me">
+ 				</div>
+ 			</div>
+ 			<div class="about-content">
+ 			   <div class="row">
+                 <div class="section-title">
+               	   <h1>About Me</h1>
+                 </div>
+               </div>
+               <p>I’m a full-stack web developer and creative coder who specializes in MERN stack development. My mission is to translate user-focused designs into pixel-perfect websites or applications that run blazing fast. A passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies and leverage them to solve real-life problems. </p>
+                <br>
+			   <div class="experince-toggle">
+				<h4 class="exp-tab yellow-font">Experience</h4>
+				<h4 class="apart-tab">Apart from Coding</h4>
+			   </div>
+			   <p class="some-activities">
+				<span class="highlight-key">Company Name :</span> DxMinds Innovation Labs Pvt. Ltd <br><span class="highlight-key">Duration :</span> JUN 2023 to Until now <br><span class="highlight-key">Tech Stacks :</span> HTML | CSS | JavaScript | TypeScript | Node JS | Express JS | ReactJs | MIUI  <br><span class="highlight-key">Role :</span> Software Engineer<br><span class="highlight-key">Responsibilities :</span><br>&#128073;  Backend development for "Hallo Club", and "Cozmo" using Node.js, Express.js, MongoDB, TypeScript, and more.<br>&#128073; Created secure authentication systems with CRM and custom APIs for improved platform security and usability.<br>&#128073; Integrated development tools and middleware like logger, Swagger, and npm packages, enhancing project maintainability, and documentation.<br>&#128073; Maintained strong MVC models and a well-structured backend for building model schemas, validations, and authentication.
+			</p>
+			
+               <a href="https://drive.google.com/drive/folders/1K8CnmhD8z2AD-CYPXHdy0npkASDSrh6O" target="_blank" class="btn btn-01">Resume</a>
+
+ 			</div>
+ 		</div>
+ 	</div>
+ </section>
+ <!-- About Section End -->
+
+ <!-- Service Section Start -->
+ <section class="service-section" id="services">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="section-title">
+ 				<h1>Skills & Tech-Stack</h1>
+ 			</div>
+ 		</div>
+ 		<div class="row">
+ 			<!-- service Item Start -->
+ 			<div class="service-item">
+ 				<div class="service-item-inner">
+ 					<img src="https://w0.peakpx.com/wallpaper/214/158/HD-wallpaper-html5-logo-white-silk-texture-html5-emblem-programming-language-html-silk-background.jpg" alt="HTML">
+ 					<div class="overlay">
+ 						<h4>HTML</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- service Item End -->
+ 			<!-- service Item Start -->
+ 			<div class="service-item">
+ 				<div class="service-item-inner">
+ 					<img src="https://c4.wallpaperflare.com/wallpaper/285/806/562/css-css3-wallpaper-thumb.jpg" alt="CSS">
+ 					<div class="overlay">
+ 						<h4>CSS</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- service Item End -->
+ 			<!-- service Item Start -->
+ 			<div class="service-item">
+ 				<div class="service-item-inner">
+ 					<img src="https://w0.peakpx.com/wallpaper/957/738/HD-wallpaper-javascript-golden-logo-programming-language-brown-metal-background-creative-javascript-logo-programming-language-signs-javascript.jpg" alt="JavaScript">
+ 					<div class="overlay">
+ 						<h4>JavaScript</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- service Item End -->
+ 			<!-- service Item Start -->
+ 			<div class="service-item">
+ 				<div class="service-item-inner">
+ 					<img src="https://miro.medium.com/v2/resize:fit:1200/0*OJAUWZoGbVq--rNd.png" alt="TypeScript">
+ 					<div class="overlay">
+ 						<h4>TypeScript</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- service Item End -->
+ 			<!-- service Item Start -->
+ 			<div class="service-item">
+ 				<div class="service-item-inner">
+ 					<img src="https://www.pngitem.com/pimgs/m/162-1628140_react-js-hd-png-download.png" alt="ReactJs">
+ 					<div class="overlay">
+ 						<h4>React JS</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- service Item End -->
+ 			<!-- service Item Start -->
+ 			<div class="service-item">
+ 				<div class="service-item-inner">
+ 					<img src="https://www.seekpng.com/png/detail/80-804068_javascript-node-js-logo-png.png" alt="NodeJs">
+ 					<div class="overlay">
+ 						<h4>Node JS</h4>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<!-- service Item End -->
+ 		</div>
+ 	</div>
+ </section>
+ <!-- Service Section End -->
+
+ <!-- Work Section Start -->
+ <section class="work-section" id="works">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="section-title">
+ 				<h1>Projects</h1>
+ 			</div>
+ 		</div>
+ 		<div class="row projects">
+ 			<!-- Work Item Start -->
+ 			<div class="work-item">
+ 				<div class="work-item-inner">
+ 					<img src="./img/Healthkart.jpg"
+					 alt="Clone of HealthKart" data-large="" alt="work">
+ 					<div class="overlay">
+ 						<h4></h4>
+						<p class="descp">
+							
+							About This project is a clone of (HealthKart.com) which is India’s largest online health & fitness store for men and women. Shop online from the latest collections of health the best brands. <br>
+						</p>
+ 					</div>
+					
+ 				</div>
+				 <div>
+					<br>
+					<h4>Clone of HealthKart</h4>
+					
+					<p class="descp"> HTML | CSS | JavaScript | Express Js | MongoDb</p>
+				</div>
+				<br>
+				<div class="flex">
+					<a href="https://github.com/Dhruvkagrawal/HealtKart.com-Clone" target="_blank" class="btn btn-01">Git Hub</a>
+					<a href="https://hemantjayas.github.io/HealthKart/" target="_blank" class="btn btn-01">Demo</a>
+				</div>
+				<div class="feature-block">
+					<h4>Features</h4>
+					<li>Products and proteins catalogue</li>
+					<li>Adding the products to the cart page</li>
+					<li>Checkout page</li>
+					<li>Details about products in the cart</li>
+				</div>
+				<br>
+				<div class="feature-block">
+					<h4> Areas of responsibilities</h4>
+					<li>Built the cart page and the checkout page</li>
+					<li>Used Local storage for the Data</li>
+						<li>Developed the form for the checkout page</li>
+						<li>Import and Export for navbar</li>
+				</div>
+ 			</div>
+ 			<!-- Work Item End -->
+ 			<!-- Work Item Start -->
+ 			<div class="work-item">
+ 				<div class="work-item-inner">
+ 					<img src="./img/Kickstarter.jpg"
+					 alt="Clone of Kickstarter" data-large="" alt="work">
+ 					<div class="overlay">
+ 						<h4></h4>
+						<p class="descp">
+							About Kickstarter campaigns make ideas into reality. It’s where creators share new visions for creative work with the communities that will come together to fund them.
+							<br>
+						</p>
+ 					</div>
+					 
+ 				</div>
+				 <div>
+					<br>
+					<h4>Clone of Kickstarter</h4>
+					
+					<p class="descp"> HTML | CSS | React JS</p>
+				</div>
+				<br>
+				<div class="flex">
+					<a href="https://github.com/rv-vikram/Kickstarter_Clone" target="_blank" class="btn btn-01">Git Hub</a>
+					<a href="https://kickstarterclone0.netlify.app/" target="_blank" class="btn btn-01">Demo</a>
+				</div>
+				<div class="feature-block">
+					<h4>Features</h4>
+					<li>Creating projects</li>
+					<li>Dynamic routing</li>
+					<li>Import and export components</li>
+					<li>Dynamic sliding</li>
+				</div>
+				<br>
+				<div class="feature-block">
+					<h4> Areas of responsibilities</h4>
+					<li>Authentication and Authorization </li>
+					<li>Built article page and dynamic sliding</li>
+					<li>Built artificial advertisement using react states</li>
+					<li>Built Landing page</li>
+				</div>
+ 			</div>
+
+			<!-- Work Item Start -->
+			<div class="work-item">
+				<div class="work-item-inner">
+					<img src="./img/nykaa.jpg"
+					alt="Clone of Nykaa" data-large="" alt="work">
+					<div class="overlay">
+						<h4></h4>
+					   <p class="descp">
+						Nykaa is India’s leading beauty and fashion platform that offers a comprehensive range of cosmetics, engagement products and expert assistance.
+						   <br>
+
+					   </p>
+					</div>
+					
+				</div>
+				<div>
+				   <br>
+				   <h4>Clone of Nykaa</h4>
+				   
+				   <p class="descp"> HTML | CSS | JavaScript</p>
+			   </div>
+			   <br>
+			   <div class="flex">
+				   <a href="https://github.com/srinivasGokarla/Nyka_clone" target="_blank" class="btn btn-01">Git Hub</a>
+				   <a href="https://srinivasgokarla.github.io/Nyka_clone/index.html" target="_blank" class="btn btn-01">Demo</a>
+			   </div>
+			   <div class="feature-block">
+				<h4>Features</h4>
+				<li>E-commerce for buying Cosmetics</li>
+				<li>Quick Buy option</li>
+				<li>Success page (showing order id)</li>
+				<li>Used LocalStorage for storing data</li>
+				
+			</div>
+			<br>
+			<div class="feature-block">
+				<h4> Areas of responsibilities</h4>
+				<li>Build the pages individually</li>
+				<li>Built sliding Carousel</li>
+				<li>Added extra functionality of quick buy</li>
+				<li>Dynamic cart page</li>
+					
+			</div>
+			</div>
+ 		</div>
+   <br>
+   
+		 
+
+		 
+		  
+ 	</div>
+	 
+ </section>
+ <!-- Work Section End --> 
+
+
+<!-- Contact Section Start -->
+<section class="contact-section" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-img">
+				<div class="img-box">
+					<div class="section-title">
+						<h1>Contact Me</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="row">
+        	<div class="contact-form">
+        		<form class="form">
+        			<div class="row">
+						<div class="contact-info">
+							<div class="row">
+								<!-- info item start -->
+								<div class="info-item">
+									<h5>Get in Touch</h5>
+									<p>
+										"If you are an employer looking for a dedicated web developer, feel free to contact me"</p>
+								</div>
+								<!-- info item end -->
+								<!-- info item start -->
+								<div class="info-item">
+									<h5>Phone</h5>
+									<a href="tel:+918790844853"><p>&#128241; +91 8790844853</p></a>
+								</div>
+								<!-- info item end -->
+								<!-- info item start -->
+								<div class="info-item">
+									<h5>Email</h5>
+									<a href="mailto:srinivasgokarla@gmail.com"><p>&#128231; srinivasgokarla@gmail.com</p></a>
+								</div>
+								<!-- info item end -->
+							</div>
+						</div>
+        		</form>
+
+					
+        		</div>
+        	</div>
         </div>
-      </nav>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+        
+
+        <div class="row">
+        	<div class="social-links">
+        		<a href="https://www.linkedin.com/in/srinivas-gokarla/" title="Linkdein"><img src="https://www.nicepng.com/png/detail/19-198727_png-file-linkedin-icon-png-black.png" alt="linkdein"></a>
+        		<a href="https://github.com/srinivasGokarla" title="Github"><img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU" alt="github"></a>
+        		<a href="https://medium.com/@srinivasgokarla" title="Medium"><img src="https://play-lh.googleusercontent.com/hB9t3Z-mi284_49HA3nAuhO-W5Cyhje7r2P9McdgORoVCd-0SV54c12NMQWLHnqALw" alt="medium"></a>
+        	</div>
+        </div>
+
+	</div>
+</section>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+<script>
+	
+  </script>
+</body>
 </html>
