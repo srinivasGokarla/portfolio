@@ -1,69 +1,121 @@
- 
-  let index = 0;
-  const totalWorkItems = $(".work-item").length; 
+let index = 0;
+const totalWorkItems = $(".work-item").length;
 
-   $(window).on("load",function(){
-      $(".preloader").addClass("loaded");
-   })
+$(window).on("load", function () {
+  $(".preloader").addClass("loaded");
+});
 
-  $(document).ready(function () {
+$(document).ready(function () {
 
-    // nav toggle
-    $(".nav-toggle").click(function(){
+  // ============================
+  // NAV TOGGLE
+  // ============================
+
+  $(".nav-toggle").click(function () {
+    $(".header .nav").slideToggle();
+  });
+
+  $(".header .nav a").click(function () {
+    if ($(window).width() < 768) {
       $(".header .nav").slideToggle();
-    })
-    $(".header .nav a").click(function(){
-      if($(window).width() < 768){
-         $(".header .nav").slideToggle();
-      }
-    })
+    }
+  });
 
-    // fixed header 
-    $(window).scroll(function(){
-      if($(this).scrollTop() > 100){
-        $(".header").addClass("fixed");
-      }
-      else{
-        $(".header").removeClass("fixed");
-      }
-    })
 
-  $("a").on('click', function(event) {
+  // ============================
+  // FIXED HEADER
+  // ============================
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $(".header").addClass("fixed");
+    } else {
+      $(".header").removeClass("fixed");
+    }
+  });
+
+
+  // ============================
+  // SMOOTH SCROLL
+  // ============================
+
+  $("a").on("click", function (event) {
+
     if (this.hash !== "") {
+
       event.preventDefault();
 
       var hash = this.hash;
-     $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        window.location.hash = hash;
-      });
-    } 
+
+      $("html, body").animate(
+        {
+          scrollTop: $(hash).offset().top
+        },
+        800,
+        function () {
+          window.location.hash = hash;
+        }
+      );
+    }
   });
 
 
-  // $(".exp-tab").click(function(){
-  //   $(".apart-tab").removeClass('yellow-font')
-  //   $(".exp-tab").addClass('yellow-font')
-  //  $(".some-activities").html('<span class="highlight-key">Company Name :</span> DxMinds Innovation Labs Pvt. Ltd <br><span class="highlight-key">Duration :</span> JUN 2023 TO Still Working <br><span class="highlight-key">Tech Stacks :</span> HTML | CSS | JavaScript | TypeScript | APIs | ReactJs  <br><span class="highlight-key">Role :</span> Software Engineer<br><span class="highlight-key">Responsibilities :</span><br>&#128073; Build pages like Invest, Regions, Individuals, Funds, ContactUs, SIProfile<br>&#128073; Worked on Referrals, Dashboard, AboutUs, login, FAQs, header, footer<br>&#128073; SEO maintained code and testing<br>&#128073; Weekend team support')
-  // })
-  $(".exp-tab").click(function(){
-    $(".apart-tab").removeClass('yellow-font')
-    $(".exp-tab").addClass('yellow-font')
-   $(".some-activities").html('<span class="highlight-key">Company Name :</span> DxMinds Innovation Labs Pvt. Ltd <br><span class="highlight-key">Duration :</span> JUN 2023 to Until Now <br><span class="highlight-key">Tech Stacks :</span> HTML | CSS | JavaScript | TypeScript | Node JS | Express JS | ReactJs | MIUI <br><span class="highlight-key">Role :</span> Software Engineer<br><span class="highlight-key">Responsibilities :</span><br>&#128073;  Backend development for "Hallo Club", and "Cozmo" using Node.js, Express.js, MongoDB, TypeScript, and more.<br>&#128073; Created secure authentication systems with CRM and custom APIs for improved platform security and usability.<br>&#128073; Integrated development tools and middleware like logger, Swagger, and npm packages, enhancing project maintainability, and documentation.<br>&#128073; Maintained strong MVC models and a well-structured backend for building model schemas, validations, and authentication.')
-  })
+  // ============================
+  // EXPERIENCE
+  // ============================
 
- 
-    
-  var typed = new Typed('.element', {
-    strings: ['Full Stack Developer', 'FrontEnd Developer','BackEnd Developer','Full Stack Developer', 'FrontEnd Developer'],
+  $(".exp-tab").click(function () {
+
+    $(".apart-tab").removeClass("yellow-font");
+    $(".exp-tab").addClass("yellow-font");
+
+    $(".some-activities").html(
+      '<span class="highlight-key">Company Name :</span> TadPul Technologies Private Limited' +
+      '<br>' +
+      '<span class="highlight-key">Duration :</span> AUG 2025 to Present' +
+      '<br>' +
+      '<span class="highlight-key">Tech Stacks :</span> React.js | TypeScript | Firebase | Firestore | Cloud Functions | OpenAI | Whisper | Deepgram | Playwright | Cucumber | GitHub Actions | Jenkins' +
+      '<br>' +
+      '<span class="highlight-key">Role :</span> Software Engineer' +
+      '<br>' +
+      '<span class="highlight-key">Project :</span> NeoRecruit' +
+      '<br>' +
+      '<span class="highlight-key">Responsibilities :</span>' +
+      '<br>' +
+      '&#128073; Build and maintain full-stack features for NeoRecruit, an AI-powered recruitment and candidate assessment platform.' +
+      '<br>' +
+      '&#128073; Develop frontend features using React.js and TypeScript.' +
+      '<br>' +
+      '&#128073; Develop backend workflows using Firebase Cloud Functions and Firestore.' +
+      '<br>' +
+      '&#128073; Integrate OpenAI, Whisper, and Deepgram for AI conversations, speech-to-text processing, transcript generation, and candidate assessment workflows.' +
+      '<br>' +
+      '&#128073; Work on authentication, authorization, Firestore security rules, Cloud Storage access, server-side file validation, API rate limiting, and audit logging.' +
+      '<br>' +
+      '&#128073; Create and maintain end-to-end automated tests using Playwright and Cucumber.' +
+      '<br>' +
+      '&#128073; Maintain CI/CD workflows using GitHub Actions and Jenkins.'
+    );
+  });
+
+
+  // ============================
+  // TYPED TEXT
+  // ============================
+
+  var typed = new Typed(".element", {
+    strings: [
+      "Full Stack Developer",
+      "Backend Developer",
+      "Software Engineer",
+      "React.js Developer",
+      "Node.js Developer"
+    ],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true,
-  loopCount: Infinity,
-  startDelay: 10
+    loopCount: Infinity,
+    startDelay: 10
   });
 
-  })
-  
-  
+});
